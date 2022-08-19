@@ -38,6 +38,7 @@ public class AlojamientoPage {
             located(By.xpath("//div/h1"));
 
 
+
 }
 
 
