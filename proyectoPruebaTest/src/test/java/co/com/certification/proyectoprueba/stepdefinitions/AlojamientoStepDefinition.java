@@ -1,8 +1,8 @@
 package co.com.certification.proyectoprueba.stepdefinitions;
 
 import co.com.certification.proyectoprueba.exceptions.busquedaFallida;
-import co.com.certification.proyectoprueba.questions.reserva.verificarBusqueda;
-import co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento;
+import co.com.certification.proyectoprueba.questions.alojamiento.verificarBusqueda;
+import co.com.certification.proyectoprueba.taks.alojamiento.BuscarAlojamiento;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Entonces;
 
@@ -14,7 +14,7 @@ public class AlojamientoStepDefinition {
 
     @Cuando("^el usuario ingresa el destino, fecha y personas a viajar$")
     public void elUsuarioIngresaElDestinoFechaYPersonasAViajar() {
-        theActorInTheSpotlight().attemptsTo(ReservarAlojamiento.sinNinos());
+        theActorInTheSpotlight().attemptsTo(BuscarAlojamiento.sinNinos());
 
     }
 
