@@ -13,6 +13,11 @@ public class InicioPage {
     public static final Target BTN_VUELOS = Target.the("boton ingresar a vuelos").
             located(By.xpath("//li/a[@data-decider-header=\"flights\"]"));
 
+    public static final Target BTN_ATRACCIONES = Target.the("boton ingresar a vuelos").
+            located(By.xpath("//li/a[@data-decider-header=\"attractions\"]"));
+
+
+
 
 
 }

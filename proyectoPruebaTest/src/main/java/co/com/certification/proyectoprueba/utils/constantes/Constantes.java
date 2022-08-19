@@ -18,6 +18,7 @@ public class Constantes {
     public static final String NUMERO_HABITACIONES = "habitaciones";
     public static final String TIPO_VUELO = "tipoVuelo";
 
+    public static final String LUGAR="lugar";
 
 
 

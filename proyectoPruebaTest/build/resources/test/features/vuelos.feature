@@ -13,5 +13,5 @@ Característica:Realizar una busqueda de vuelos sin atutenticarse en Booking.com
     Entonces deberia mirar el resultado de la busqueda para vuelo
     Ejemplos:
       | ID | TipoVuelo       | CantidadAdultos | Origen  | Destino   | FechaInicio | FechaFin   |
-      | 2  | Primera clase   | 2               | Cali    | Pasto     | 2022-12-20  | 2023-01-05 |
+      | 2  | Primera clase   | 3               | Cali    | Pasto     | 2022-12-20  | 2023-01-05 |
       | 1  | Turista premium | 1               | Pereira | Cartagena | 2022-08-20  | 2022-08-22 |
