@@ -13,4 +13,4 @@ Característica:Validar autenticacion en la pagina Booking.com
     Entonces la autenticacion deberia ser exitosa
     Ejemplos:
     |ID|Correo|Contrasena|resultadoEsperdo|
-    | 1|alambrito22@yopmail.com | 1234JNShgs25 |Tu cuenta|
+    | 1|alambrito522@yopmail.com | 1234JNShgs25 |Tu cuenta|
