@@ -13,5 +13,6 @@ Característica:Realizar una busqueda de alojamiento sin atutenticarse en Bookin
     Entonces deberia mirar el resultado de la busqueda
     Ejemplos:
     |ID|Destino|FechaInicio|FechaFin|Adultos|Ninos|Habitaciones|
-    | 1|Medellin| 2022-09-01 | 2022-10-01 | 2      | 0   |1           |
-    | 2|Pasto   | 28 diciembre 2023  | 7 enero 2022 | 5      | 0   |3           |
+    | 2|Pasto   | 2022-12-20 | 2023-01-05 | 5      | 0   |1           |
+    | 1|Cartagena| 2022-08-20 | 2022-08-22 | 2      | 0   |2           |
+

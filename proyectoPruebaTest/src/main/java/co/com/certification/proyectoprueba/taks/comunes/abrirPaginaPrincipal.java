@@ -2,7 +2,6 @@ package co.com.certification.proyectoprueba.taks.comunes;
 
 import co.com.certification.proyectoprueba.userinterfaces.BookingPage;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
 

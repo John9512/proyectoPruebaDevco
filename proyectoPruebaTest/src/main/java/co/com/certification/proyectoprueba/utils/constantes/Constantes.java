@@ -10,6 +10,11 @@ public class Constantes {
     public static final String DESTINO = "destino";
     public static final String FECHA_INICIAL = "fechaInicio";
     public static final String FECHA_FINAL = "fechaFin";
+    public static final String NUMERO_ADULTOS = "adultos";
+    public static final String NUMERO_NINOS = "ninos";
+    public static final String NUMERO_HABITACIONES = "habitaciones";
+
+
 
 
 

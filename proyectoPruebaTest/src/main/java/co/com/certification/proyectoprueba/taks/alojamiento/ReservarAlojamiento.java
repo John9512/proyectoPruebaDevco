@@ -1,12 +1,11 @@
 package co.com.certification.proyectoprueba.taks.alojamiento;
 
+import co.com.certification.proyectoprueba.interactions.Aumentar;
+import co.com.certification.proyectoprueba.interactions.avanzar;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.type.Type;
-import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
-import net.serenitybdd.screenplay.waits.WaitUntil;
-import org.openqa.selenium.WebElement;
 
 import static co.com.certification.proyectoprueba.models.cargardatos.DatosPrueba.obtener;
 import static co.com.certification.proyectoprueba.userinterfaces.AlojamientoPage.*;
@@ -20,11 +19,14 @@ public class ReservarAlojamiento implements Task {
                 Click.on(LABEL_DESTINO),
                 Type.theValue(obtener(DESTINO)).into(LABEL_DESTINO),
                 Click.on(LABEL_FECHA_INICIO),
-                WaitUntil.the(FECHA, WebElementStateMatchers.isVisible()).forNoMoreThan(9).seconds(),
+                avanzar.tablaMes(),
                 Click.on(FECHA.of(obtener(FECHA_INICIAL))),
-                Click.on(FECHA.of(obtener(FECHA_FINAL)))
-
-        );
+                Click.on(FECHA.of(obtener(FECHA_FINAL))),
+                Click.on(LABEL_PERSONAS),
+                Aumentar.indice(LABEL_ADULTOS,FLECHA_ADULTOS,obtener(NUMERO_ADULTOS)),
+                Aumentar.indice(LABEL_NINOS,FLECHA_NINOS,obtener(NUMERO_NINOS)),
+                Aumentar.indice(LABEL_HABITACIONES,FLECHA_HABITACIONES,obtener(NUMERO_HABITACIONES)),
+                Click.on(BOTON_BUSCAR));
     }
 
     public static ReservarAlojamiento sinNinos(){

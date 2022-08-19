@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Realizar una busqueda de alojamiento sin atutenticarse en Booking.com" skipped="0" tests="2" time="21.73" timestamp="2022-08-18 08:28:33"><testcase name="Realizar reserva de alojamiento desde pagina de inicio sin niños"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by css: //td[contains(@data-date,[{0}])]" type="java.lang.AssertionError">
-Expected: an element that is visible
-     but: no matching element found by css: //td[contains(@data-date,[{0}])]</failure><system-err>
-Expected: an element that is visible
-     but: no matching element found by css: //td[contains(@data-date,[{0}])]&#13;
-co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento.performAs(ReservarAlojamiento.java:19)&#13;
-co.com.certification.proyectoprueba.stepdefinitions.AlojamientoStepDefinition.elUsuarioIngresaElDestinoFechaYPersonasAViajar(AlojamientoStepDefinition.java:17)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Realizar una busqueda de alojamiento sin atutenticarse en Booking.com" skipped="0" tests="2" time="50.74" timestamp="2022-08-18 11:52:05"><testcase name="Realizar reserva de alojamiento desde pagina de inicio sin niños"/></testsuite>

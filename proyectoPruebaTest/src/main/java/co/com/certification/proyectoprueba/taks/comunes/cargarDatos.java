@@ -10,7 +10,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static co.com.certification.proyectoprueba.models.cargardatos.DatosPrueba.*;
+import static co.com.certification.proyectoprueba.models.cargardatos.DatosPrueba.getMap;
+import static co.com.certification.proyectoprueba.models.cargardatos.DatosPrueba.setMap;
 import static co.com.certification.proyectoprueba.utils.fecha.FechaActual.obtenerFecha;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 

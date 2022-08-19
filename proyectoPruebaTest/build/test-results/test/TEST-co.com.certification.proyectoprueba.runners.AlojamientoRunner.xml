@@ -2,69 +2,9 @@
 <testsuite name="co.com.certification.proyectoprueba.runners.AlojamientoRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="LAPTOP-TMQ7CEEC" time="0.0">
   <properties/>
   <system-out><![CDATA[
-?[31mFailed scenarios:?[0m
-?[31msrc/test/resources/features/alojamiento.feature:16 ?[0m# Realizar reserva de alojamiento desde pagina de inicio sin niños
-?[31msrc/test/resources/features/alojamiento.feature:17 ?[0m# Realizar reserva de alojamiento desde pagina de inicio sin niños
-
-2 Scenarios (?[31m2 failed?[0m)
-6 Steps (?[31m2 failed?[0m, ?[36m2 skipped?[0m, ?[32m2 passed?[0m)
-0m40,573s
-
-java.lang.AssertionError: 
-Expected: an element that is visible
-     but: no matching element found by css: //td[contains(@data-date,[{0}])]
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:300)
-	at net.serenitybdd.screenplay.waits.WaitUntilBuilder$1.performAs(WaitUntilBuilder.java:29)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:232)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:213)
-	at net.serenitybdd.screenplay.Actor.performSilently(Actor.java:193)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:166)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento.performAs(ReservarAlojamiento.java:19)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2.CGLIB$performAs$0(<generated>)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2$$FastClassByCGLIB$$949e55f2.invoke(<generated>)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:478)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:463)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:438)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:166)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:72)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2.performAs(<generated>)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:232)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:213)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:170)
-	at co.com.certification.proyectoprueba.stepdefinitions.AlojamientoStepDefinition.elUsuarioIngresaElDestinoFechaYPersonasAViajar(AlojamientoStepDefinition.java:17)
-	at ?.el usuario ingresa el destino, fecha y personas a viajar(src/test/resources/features/alojamiento.feature:12)
-
-java.lang.AssertionError: 
-Expected: an element that is visible
-     but: no matching element found by css: //td[contains(@data-date,[{0}])]
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:300)
-	at net.serenitybdd.screenplay.waits.WaitUntilBuilder$1.performAs(WaitUntilBuilder.java:29)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:232)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:213)
-	at net.serenitybdd.screenplay.Actor.performSilently(Actor.java:193)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:166)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento.performAs(ReservarAlojamiento.java:19)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2.CGLIB$performAs$0(<generated>)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2$$FastClassByCGLIB$$949e55f2.invoke(<generated>)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:478)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:463)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:438)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:166)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:72)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2.performAs(<generated>)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:232)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:213)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:170)
-	at co.com.certification.proyectoprueba.stepdefinitions.AlojamientoStepDefinition.elUsuarioIngresaElDestinoFechaYPersonasAViajar(AlojamientoStepDefinition.java:17)
-	at ?.el usuario ingresa el destino, fecha y personas a viajar(src/test/resources/features/alojamiento.feature:12)
+2 Scenarios (?[32m2 passed?[0m)
+6 Steps (?[32m6 passed?[0m)
+0m51,130s
 
 ]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".

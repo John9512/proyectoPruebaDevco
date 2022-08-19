@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">2</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">40.051s</div>
+<div class="counter">50.521s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,87 +61,13 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
-</li>
-<li>
-<a href="#tab2">Standard error</a>
+<a href="#tab1">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="Realizar reserva de alojamiento desde pagina de inicio sin niños"></a>
-<h3 class="failures">Realizar reserva de alojamiento desde pagina de inicio sin niños</h3>
-<span class="code">
-<pre>java.lang.AssertionError: 
-Expected: an element that is visible
-     but: no matching element found by css: //td[contains(@data-date,[{0}])]
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:300)
-	at net.serenitybdd.screenplay.waits.WaitUntilBuilder$1.performAs(WaitUntilBuilder.java:29)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:232)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:213)
-	at net.serenitybdd.screenplay.Actor.performSilently(Actor.java:193)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:166)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento.performAs(ReservarAlojamiento.java:19)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2.CGLIB$performAs$0(&lt;generated&gt;)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2$$FastClassByCGLIB$$949e55f2.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:478)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:463)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:438)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:166)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:72)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2.performAs(&lt;generated&gt;)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:232)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:213)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:170)
-	at co.com.certification.proyectoprueba.stepdefinitions.AlojamientoStepDefinition.elUsuarioIngresaElDestinoFechaYPersonasAViajar(AlojamientoStepDefinition.java:17)
-	at ✽.el usuario ingresa el destino, fecha y personas a viajar(src/test/resources/features/alojamiento.feature:12)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Realizar reserva de alojamiento desde pagina de inicio sin niños"></a>
-<h3 class="failures">Realizar reserva de alojamiento desde pagina de inicio sin niños</h3>
-<span class="code">
-<pre>java.lang.AssertionError: 
-Expected: an element that is visible
-     but: no matching element found by css: //td[contains(@data-date,[{0}])]
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:300)
-	at net.serenitybdd.screenplay.waits.WaitUntilBuilder$1.performAs(WaitUntilBuilder.java:29)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:232)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:213)
-	at net.serenitybdd.screenplay.Actor.performSilently(Actor.java:193)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:166)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento.performAs(ReservarAlojamiento.java:19)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2.CGLIB$performAs$0(&lt;generated&gt;)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2$$FastClassByCGLIB$$949e55f2.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:478)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:463)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:438)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:166)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:72)
-	at co.com.certification.proyectoprueba.taks.alojamiento.ReservarAlojamiento$$EnhancerByCGLIB$$10ec9ff2.performAs(&lt;generated&gt;)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:232)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:213)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:170)
-	at co.com.certification.proyectoprueba.stepdefinitions.AlojamientoStepDefinition.elUsuarioIngresaElDestinoFechaYPersonasAViajar(AlojamientoStepDefinition.java:17)
-	at ✽.el usuario ingresa el destino, fecha y personas a viajar(src/test/resources/features/alojamiento.feature:12)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -152,35 +78,35 @@ Expected: an element that is visible
 </tr>
 </thead>
 <tr>
-<td class="failures">Realizar reserva de alojamiento desde pagina de inicio sin niños</td>
-<td class="failures">21.855s</td>
-<td class="failures">failed</td>
+<td class="success">Realizar reserva de alojamiento desde pagina de inicio sin niños</td>
+<td class="success">33.370s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Realizar reserva de alojamiento desde pagina de inicio sin niños</td>
-<td class="failures">18.196s</td>
-<td class="failures">failed</td>
+<td class="success">Realizar reserva de alojamiento desde pagina de inicio sin niños</td>
+<td class="success">17.151s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>ago. 18, 2022 8:28:34 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+<pre>ago. 18, 2022 11:52:06 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 104.0.5112.29 (eff877e18f767c77fef0481a1cba402c8cbad404-refs/branch-heads/5112@{#422}) on port 36189
+Starting ChromeDriver 104.0.5112.29 (eff877e18f767c77fef0481a1cba402c8cbad404-refs/branch-heads/5112@{#422}) on port 18036
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-ago. 18, 2022 8:28:36 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+ago. 18, 2022 11:52:08 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-ago. 18, 2022 8:28:55 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+ago. 18, 2022 11:52:39 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 104.0.5112.29 (eff877e18f767c77fef0481a1cba402c8cbad404-refs/branch-heads/5112@{#422}) on port 51617
+Starting ChromeDriver 104.0.5112.29 (eff877e18f767c77fef0481a1cba402c8cbad404-refs/branch-heads/5112@{#422}) on port 38642
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-ago. 18, 2022 8:28:57 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+ago. 18, 2022 11:52:40 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 </pre>
 </span>
@@ -193,7 +119,7 @@ INFO: Detected dialect: W3C
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.1</a> at 18 ago. 2022 20:29:18</p>
+<a href="http://www.gradle.org">Gradle 7.1</a> at 18 ago. 2022 23:53:05</p>
 </div>
 </div>
 </body>

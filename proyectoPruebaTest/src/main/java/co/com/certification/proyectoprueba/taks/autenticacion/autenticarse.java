@@ -22,7 +22,6 @@ public class autenticarse implements Task {
                 Type.theValue(obtener(CORREO)).into(INPUT_EMAIL),
                 Click.on(BTN_CONTINUAR),
                 Type.theValue(obtener(CONTRASENA)).into(INPUT_PASSWORD),
-                Click.on(BTN_CONTINUAR),
                 Click.on(BTN_CONTINUAR)
         );
     }

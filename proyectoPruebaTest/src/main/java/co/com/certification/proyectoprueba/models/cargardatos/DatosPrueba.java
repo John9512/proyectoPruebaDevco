@@ -1,6 +1,5 @@
 package co.com.certification.proyectoprueba.models.cargardatos;
 
-import java.util.List;
 import java.util.Map;
 
 public class DatosPrueba {
